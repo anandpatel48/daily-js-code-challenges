@@ -91,7 +91,13 @@ sumNumbers([2, 10, -5]) //=> 7
 sumNumbers([]) //=> 0
 -----------------------------------------------------------------*/
 // Your solution for 03-sumNumbers here:
-
+function sumNumbers(arrayNums) {
+  var arraySum = 0
+  for (var i=0 ; i<arrayNums.length; i+1) {
+    arraySum = arraySum+arrayNums[i];
+  }
+  return arraySum
+}
 
 
 
