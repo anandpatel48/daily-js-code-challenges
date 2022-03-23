@@ -92,12 +92,14 @@ sumNumbers([]) //=> 0
 -----------------------------------------------------------------*/
 // Your solution for 03-sumNumbers here:
 function sumNumbers(arrayNums) {
-  var arraySum = 0
+  var sum = 0
   for (var i=0 ; i<arrayNums.length; i+1) {
-    arraySum = arraySum+arrayNums[i];
+    sum = sum+arrayNums[i];
   }
-  return arraySum
+  return sum
+
 }
+
 
 
 
