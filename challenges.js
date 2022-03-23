@@ -37,7 +37,6 @@ function addOne(num) {
   return num + 1
 }
 
-console.log(addOne(19))
 
 
 /*-----------------------------------------------------------------
@@ -58,7 +57,18 @@ addTwoNumbers(0, 0) //=> 0
 addTwoNumbers('Hello', 5) //=> NaN
 -----------------------------------------------------------------*/
 // Your solution for 02-addTwoNumbers here:
+console.log(addOne(19))
 
+function addTwoNumbers(numOne, numTwo) {
+    if (typeof numOne != "number" || typeof numTwo!= "number") {
+        return NaN      
+    }
+    else {
+        return numOne + numTwo
+    }
+}
+
+console.log(addTwoNumbers(7,"anand"))
 
 
 
